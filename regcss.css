@@ -1,0 +1,35 @@
+body{
+    background-image:url('regback.png');
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#main{
+    display:block;
+    background-color:white;
+    width:90%;
+    height:80%;
+    overflow-y:scroll;
+    border-radius:10px;
+    margin:auto;
+    padding:10%;
+}
+form{
+    display:block;
+    background-color: red;
+    width:50%;
+    height:100%;
+    margin:20px;
+
+}
+.but, .bot{
+    display:block;
+    border:1px solid navy;
+    background-color: skyblue;
+    color: navy;
+    height:20px;
+    width:80%;
+    border-radius:2px;
+    margin:10%;
+
+}

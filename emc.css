@@ -1,0 +1,164 @@
+:root{
+      --col1:#030e4f;
+      --col2:#f49f1c;
+      }
+.stamp{
+  position:absolute  ;
+  width:200px;
+  margin-top:-150px;
+  margin-left:170px;
+  filter:saturate(100%);
+}
+.col a, a {
+  color:var(--col1);
+  text-decoration:none;}
+strong{
+  font-family:lora;
+  font-weight:999;
+}
+ body{
+   font-family:Montserrat;
+          color:var(--col1);
+          margin:10%;
+          text-align:center;
+          padding-top:7em;
+   background-color:azure;
+      }
+.inp ,select{
+  background-color:azure;
+  color:var(--col1);
+  margin-bottom:3px;
+  height:40px;
+  width:100%;
+  outline:none;
+  border:1px solid var(--col2);
+}
+#head{
+background-color:var(--col1);
+font-family:lora;
+padding:15px;
+position:fixed;
+width:100%;
+color:azure;
+top:0;
+left:0;
+  z-index:99;
+  text-align:left;
+}
+#head strong{
+    font-size:25px;
+    color:var(--col2);
+}
+.topnav {
+  overflow: hidden;
+  background-color:var(--col1);
+  position: relative;
+}
+
+.topnav #myLinks {
+  height:0;
+  transition:0.5s;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: var(--col2);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav i {
+    margin:50%;
+    }
+.topnav a.icon {
+  background:var(--col1);
+  display: block;
+  position: absolute;
+  right: 0;
+  top:0;
+  height:100%;
+  width:25%;
+  border:1px solid var(--col2);
+  border-radius:25px 0 0 25px;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: var(--col1);
+  color: var(--col2);
+  cursor: pointer;
+  height:100%;
+  border-radius:0px 10px 10px 0px;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: azure;
+}
+h5, h6{
+  text-transform:uppercase;
+  font-size:16px}
+
+  #center{
+      position:absolute;
+      width:75%;
+      top:35%;
+      left:12.5%;
+      }
+  #center::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+table input{
+    width:100%;
+    border:none;
+    outline:none;
+  text-align:center;
+  font-size:14px;
+}
+table input:focus{
+   background-color:darkslategray;
+color:white;
+}
+.subject{
+  font-size:9px;
+  font-weight:999;}
+  input{;
+  outline:none !important;   
+}
+#sheet{  
+  background-color:white;
+  width: 21cm;
+  height: 29.7cm; 
+  padding :2.97em 2.1em 2.97em 2.1em;
+  color:darkslategray;
+  border:2px solid chartreuse;
+}
+table td{
+    height:1em;
+}
+    @media print {
+      body{
+        margin:0;
+        padding:0;
+      }
+ #sheet{
+   border:none;
+   padding:0px;
+  }
+  .noprint{
+    display:none;
+
+       }
+
+}
